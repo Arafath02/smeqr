@@ -3,7 +3,8 @@ const urlParams = new URLSearchParams(window.location.search);
 const client = urlParams.get("client");
 
 // Fetch client JSON
-fetch(`/clients/${client}.json`)
+//fetch(`/clients/${client}.json`)
+fetch(`clients/${client}.json`)
   .then(response => {
     if (!response.ok) throw new Error("Client JSON not found");
     return response.json();
@@ -71,3 +72,4 @@ fetch(`/clients/${client}.json`)
     const descContainer = document.getElementById("description-container");
     descContainer.innerText = "Client not found.";
   });
+
