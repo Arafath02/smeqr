@@ -1,0 +1,21 @@
+{
+  "header": "Test Shop",
+  "logo": "images/logo-sme.g"pn,
+  "description": "no 23,1234 street, paisley AB321JEdjdkojd",
+  "colors": {
+    "background": "#000000",
+    "textColor": "#ffffff",
+    "buttonBackground": "blue",
+    "buttonText": "#ffffff",
+    "buttonHover": "green",
+    "buttonHoverText": "#ffffff",
+    "buttonBorder": "#000000"
+  },
+  "links": [
+    { "label": "Our Website", "url": "https://grilloz.co.uk/" },
+    { "label": "Follow Us On Instagram", "url": "" },
+    { "label": "Follow Us On Facebook", "url": "" },
+    { "label": "Download Our Android App", "url": "" },
+    { "label": "Download Our IOS  App", "url": "" }
+  ]
+}
