@@ -1,0 +1,72 @@
+/* ===== Body ===== */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f9f9f9; /* default background */
+}
+
+/* ===== Container ===== */
+.container {
+  padding: 20px;
+}
+
+/* ===== Logo ===== */
+#logo-container img {
+  max-width: 400px;
+  height: 200px;
+  display: block;
+  margin: 0 auto 10px auto;
+}
+
+/* ===== Header / Shop Name ===== */
+#header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #333333; /* default text color */
+}
+
+/* ===== Description / Address ===== */
+#description-container {
+  font-size: 16px;
+  color: #333333; /* default text color */
+  margin-bottom: 20px;
+}
+
+/* ===== Buttons ===== */
+button {
+  display: block;
+  width: 90%;
+  max-width: 400px;
+  padding: 12px;
+  margin: 10px auto;
+  font-size: 18px;
+  border-radius: 8px;
+  border: 2px solid transparent; /* default border */
+  background-color: #4CAF50; /* default button background */
+  color: white; /* default button text */
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+/* Hover effect */
+button:hover {
+  background-color: #45a049; /* default hover color */
+}
+
+/* ===== Responsive tweaks ===== */
+@media (min-width: 600px) {
+  #header {
+    font-size: 28px;
+  }
+
+  #description-container {
+    font-size: 18px;
+  }
+
+  button {
+    font-size: 20px;
+    padding: 14px;
+  }
+}
