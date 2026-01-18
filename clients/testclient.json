@@ -3,7 +3,7 @@
   "logo": "images/logo-sme.png",
   "description": "no 23,1234 street, paisley AB321JEdjdkojd",
   "colors": {
-    "background": "#ffffff",
+    "background": "#000000",
     "textColor": "#ffffff",
     "buttonBackground": "blue",
     "buttonText": "#ffffff",
